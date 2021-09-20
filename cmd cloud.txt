@@ -1,0 +1,35 @@
+npm run dev
+
+ls ~/.aws/    
+cat ~/.aws/config
+cat ~/.aws/credentials
+
+
+
+
+
+
+
+AWS Access Key ID
+ASIAUEOUOUGNXOM7RPOB
+
+AWS Secret Access Key
+mLz7K/Qx9lUx5CUtb7WEUxq6PHb0dcqAzADzNe7r
+
+AWS Session Token
+FwoGZXIvYXdzEEEaDP8eYYIGlgcklPlbZCK8AZVliriQ3N3k+cbZPbkgM7aWNjWnwsEDSKyHr0ux/BDeRWqVZ0tLKvdmlBiy73vxUakpxblZsVJs031LnUs11N6Ju38C6mcNoqZy1VAFWT5W4qUF2JEmGKiM1JTsNBuQi6YIYsiDxNV9+7EthnXYZjLYirDgkKKplKrK6hQD3HCLTmmR5L8Jk/bpTIDN1Fi2eY5ERpwHBYl/7K48XoHcR+EbI3jlmuce4OHjvxlsUqtoonffisreeuNVKrcbKP3q2IkGMi0dNhcyt4xXCGEALU1M3bm3xNk6cqzXO8EKRVOwlPam27PGgE9/KD2/oaS/QV8=
+
+
+
+
+User
+Access key ID
+AKIAUEOUOUGNZ2UMY4X6 
+
+Secret access key
+a2qqRWaPRkxMqBUvrvlBQfGP195W6GjKDpLnfTno
+
+Password
+#6ENBQ1nVy1}$7F
+
+udagram-one-dev
