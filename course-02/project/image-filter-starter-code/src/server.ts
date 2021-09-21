@@ -28,7 +28,19 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   //   the filtered image file [!!TIP res.sendFile(filteredpath); might be useful]
 
   /**************************************************************************** */
-
+  app.get( "/filteredimage", async ( req, res ) => {
+    let image_url = req.query.image_url;
+    if (image_url) {
+      filterImageFromURL(image_url).then((response) => {
+        res.sendFile(response);
+        res.on('finish', function() {
+          deleteLocalFiles([response]);
+        });
+      });
+    } else {
+      res.status(404).send("Please send the correct image_url");
+    }
+  });
   //! END @TODO1
   
   // Root Endpoint
@@ -38,7 +50,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   } );
   
 
-  // Start the Server
+  // Start the Ser  er
   app.listen( port, () => {
       console.log( `server running http://localhost:${ port }` );
       console.log( `press CTRL+C to stop server` );
