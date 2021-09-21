@@ -30,6 +30,7 @@ describe('divide', () => {
   });
 
   it('should throw an error if div by zero', () => {
+    //const result = divide(5,0);
     expect(()=>{ divide(5,0) }).to.throw('div by 0')
   });
 
