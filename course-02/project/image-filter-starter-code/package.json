@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grutt/udacity-c2-image-filter.git"
+    "url": "https://github.com/MEsSayed/cloud-developer/tree/master/course-02/project/image-filter-starter-code"
   },
   "author": "",
   "license": "ISC",
